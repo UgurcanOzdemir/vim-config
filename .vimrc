@@ -52,4 +52,4 @@ highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey
 set rnu
 set nu
 highlight NonText ctermfg=DarkGrey
-
+set encoding=utf-8
