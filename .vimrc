@@ -18,6 +18,7 @@ filetype plugin indent on
 set rnu
 set colorcolumn=80
 set ruler
+let mapleader=" "
 
 " Fix backspace
 set backspace=indent,eol,start
@@ -32,7 +33,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Key remaps
 imap jj <Esc>`^
-let mapleader=" "
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
